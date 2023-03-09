@@ -1,5 +1,9 @@
 package view;
-
+/**
+ *  <h2> clase de metodos utiles </h2>
+ * @author javi
+ *
+ */
 public class GestionParticipantes {
 	public static void mostrarMenuIntegrantes() {
 		Util.escribir("\n");

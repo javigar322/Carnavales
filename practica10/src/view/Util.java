@@ -1,7 +1,11 @@
 package view;
 
 import java.util.Scanner;
-
+/**
+ *  <h2> clase de metodos utiles </h2>
+ * @author javi
+ *
+ */
 public class Util {
 
 	public static int leerInt(String pregunta) {

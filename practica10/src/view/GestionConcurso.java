@@ -1,7 +1,11 @@
 package view;
 
 import controller.Coac;
-
+/**
+ *  <h2> clase de metodos utiles </h2>
+ * @author javi
+ *
+ */
 public class GestionConcurso {
 
 	public static void mostrarMenuConcurso() {
