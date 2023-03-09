@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"practica10","l":"controller"},{"m":"practica10","l":"model"},{"m":"practica10","l":"model.comp"},{"m":"practica10","l":"view"}];updateSearchResults();
