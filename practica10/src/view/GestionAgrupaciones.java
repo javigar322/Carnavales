@@ -2,7 +2,11 @@ package view;
 
 import controller.Coac;
 import model.Agrupacion;
-
+/**
+ * <h2> Objeto libros </h2>
+ * @author javi
+ *
+ */
 public class GestionAgrupaciones {
 
 	public static void mostrarMenuPrincipal() {
@@ -27,6 +31,9 @@ public class GestionAgrupaciones {
 		Util.escribir(" 13. Ordenar por el autor.");
 		Util.escribir(" 14. Ordenar por el autor de música/letra.");
 	}
+	/**
+	 *  metodo que muestra la gestion de agrupaciones
+	 */
 
 	public static void gestionPrograma() {
 		int opc;
