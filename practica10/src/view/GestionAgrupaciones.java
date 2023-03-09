@@ -8,7 +8,10 @@ import model.Agrupacion;
  *
  */
 public class GestionAgrupaciones {
-
+/**
+ * 
+ * muestra la gestion de agrupaciones
+ */
 	public static void mostrarMenuPrincipal() {
 		Util.escribir("\n");
 		Util.escribir("╔═══════════════════════════════════╗");
@@ -32,7 +35,7 @@ public class GestionAgrupaciones {
 		Util.escribir(" 14. Ordenar por el autor de música/letra.");
 	}
 	/**
-	 *  metodo que muestra la gestion de agrupaciones
+	 *  metodo que muestra la gestion del programa
 	 */
 
 	public static void gestionPrograma() {
@@ -59,11 +62,17 @@ public class GestionAgrupaciones {
 		} while (opc != 0);
 		Principal.finDelPrograma();
 	}
+	/**
+	 * 
+	 * @param object
+	 * @return edita las agrupaciones
+	 */
 
 	private static Object editar_agrupacion(Object object) {
-		// TODO Auto-generated method stub
+
 		return null;
 	}
+	
 
 	
 

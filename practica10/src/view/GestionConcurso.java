@@ -7,7 +7,9 @@ import controller.Coac;
  *
  */
 public class GestionConcurso {
-
+/**
+ * muestra el menu del concurso
+ */
 	public static void mostrarMenuConcurso() {
 		Util.escribir("\n");
 		Util.escribir("┌──────────────────────┐");
@@ -30,7 +32,9 @@ public class GestionConcurso {
 		Util.escribir(" 12. Ordenar por el autor.");
 		Util.escribir(" 13. Ordenar por autor de música/letra.");
 	}
-
+/**
+ * muestra las opciones del concurso
+ */
 	public static void opcConcurso() {
 		int opc;
 		do {
@@ -53,22 +57,37 @@ public class GestionConcurso {
 			}
 		} while (opc != 0);
 	}
-
+/**
+ * 
+ * @param object
+ * @return asigna puntos
+ */
 	private static Object asignarPuntos(Object object) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	private static Object cantan(Object object) {
 		Principal.coac.asignarPuntos(10);
 		return null;
 	}
-
+/**
+ * 
+ * @param object
+ * @return usa el cantan de los objetos
+ */
+	private static Object cantan(Object object) {
+		return null;
+	}
+/**
+ * 
+ * @param object
+ * @return usan el tipo
+ */
 	private static Object hacenTipo(Object object) {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+/**
+ * 
+ * @param coac
+ * @return usa el camino de falla
+ */
 	private static Object caminoFalla(Coac coac) {
 		// TODO Auto-generated method stub
 		return null;

@@ -5,6 +5,9 @@ package view;
  *
  */
 public class GestionParticipantes {
+	/**
+	 * muestra el menu de los integrantes
+	 */
 	public static void mostrarMenuIntegrantes() {
 		Util.escribir("\n");
 		Util.escribir("┌──────────────────────────┐");

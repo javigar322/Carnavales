@@ -7,7 +7,11 @@ import java.util.Scanner;
  *
  */
 public class Util {
-
+/**
+ * 
+ * @param pregunta
+ * @return respuesta
+ */
 	public static int leerInt(String pregunta) {
 		System.out.print(pregunta);
 		int respuesta;
@@ -15,7 +19,11 @@ public class Util {
 		respuesta = Integer.parseInt(teclado.nextLine());
 		return respuesta;
 	}
-
+/**
+ * 
+ * @param pregunta
+ * @return respuesta
+ */
 	public static double leerDouble(String pregunta) {
 		System.out.print(pregunta);
 		double respuesta;
@@ -23,7 +31,11 @@ public class Util {
 		respuesta = Double.parseDouble(teclado.nextLine());
 		return respuesta;
 	}
-
+	/**
+	 * 
+	 * @param pregunta
+	 * @return respuesta
+	 */
 	public static String leerString(String pregunta) {
 		System.out.print(pregunta);
 		String respuesta;
@@ -31,6 +43,11 @@ public class Util {
 		respuesta = teclado.next();
 		return respuesta;
 	}
+	/**
+	 * 
+	 * @param pregunta
+	 * @return respuesta
+	 */
 	public static Character leerCaracter(String pregunta) {
 		System.out.print(pregunta);
 		Character respuesta;
@@ -38,7 +55,10 @@ public class Util {
 		respuesta = teclado.next().charAt(0);
 		return respuesta;
 	}
-
+/**
+ * 
+ * @param texto
+ */
 	public static void escribir(String texto) {
 		System.out.println(texto);
 
