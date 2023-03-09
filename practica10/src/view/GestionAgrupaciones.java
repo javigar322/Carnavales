@@ -80,5 +80,8 @@ public class GestionAgrupaciones {
 			}
 		} while (opc != 0);
 	}
+	/**
+	 * el metodo que abre la opcion integrantes
+	 */
 
 }
