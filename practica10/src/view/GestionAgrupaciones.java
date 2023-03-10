@@ -2,16 +2,18 @@ package view;
 
 import controller.Coac;
 import model.Agrupacion;
+
 /**
- * <h2> Objeto libros </h2>
+ * <h2>Objeto libros</h2>
+ * 
  * @author javi
  *
  */
 public class GestionAgrupaciones {
-/**
- * 
- * muestra la gestion de agrupaciones
- */
+	/**
+	 * 
+	 * muestra la gestion de agrupaciones
+	 */
 	public static void mostrarMenuPrincipal() {
 		Util.escribir("\n");
 		Util.escribir("╔═══════════════════════════════════╗");
@@ -34,8 +36,9 @@ public class GestionAgrupaciones {
 		Util.escribir(" 13. Ordenar por el autor.");
 		Util.escribir(" 14. Ordenar por el autor de música/letra.");
 	}
+
 	/**
-	 *  metodo que muestra la gestion del programa
+	 * metodo que muestra la gestion del programa
 	 */
 
 	public static void gestionPrograma() {
@@ -62,6 +65,7 @@ public class GestionAgrupaciones {
 		} while (opc != 0);
 		Principal.finDelPrograma();
 	}
+
 	/**
 	 * 
 	 * @param object
@@ -72,11 +76,6 @@ public class GestionAgrupaciones {
 
 		return null;
 	}
-	
-
-	
-
-	
 
 	public static void opcIntegrantes() {
 

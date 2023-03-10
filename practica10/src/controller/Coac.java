@@ -17,6 +17,7 @@ public class Coac {
 	public Coac() {
 		Agrupacion[] coac = new Agrupacion[10];
 	}
+
 	/**
 	 * 
 	 * @param agrupacion
@@ -35,6 +36,7 @@ public class Coac {
 		return added;
 
 	}
+
 	/**
 	 * 
 	 * @param agrupacion
@@ -52,6 +54,7 @@ public class Coac {
 		}
 		return deleted;
 	}
+
 	/**
 	 * 
 	 * @param i
@@ -66,6 +69,7 @@ public class Coac {
 		return null;
 
 	}
+
 	/**
 	 * 
 	 * @param i
@@ -80,6 +84,7 @@ public class Coac {
 		return null;
 
 	}
+
 	/**
 	 * 
 	 * @param i
@@ -94,12 +99,13 @@ public class Coac {
 		return null;
 
 	}
+
 	/**
 	 * 
 	 * @param i
 	 * @return lista los coros
 	 */
-	
+
 	public Agrupacion listar_chirigotas(int i) {
 		if (coac[i] instanceof Chirigota) {
 			return coac[i];
@@ -108,14 +114,16 @@ public class Coac {
 		return null;
 
 	}
+
 	/**
 	 * 
 	 * @param i
 	 * @return lista las chirigotas
 	 */
 	public Agrupacion listar_todas(int i) {
-			return coac[i];
+		return coac[i];
 	}
+
 	/**
 	 * 
 	 * @param i
@@ -129,6 +137,7 @@ public class Coac {
 		return null;
 
 	}
+
 	/**
 	 * 
 	 * @param i
@@ -137,6 +146,7 @@ public class Coac {
 	public void ordenar_por_nombre() {
 		Arrays.sort(coac, new compNombre());
 	}
+
 	/**
 	 * @return ordena por nombre
 	 */
@@ -144,6 +154,7 @@ public class Coac {
 	public void ordenar_por_autor() {
 		Arrays.sort(coac, new compAutor());
 	}
+
 	/**
 	 * @return ordena por autor
 	 */
@@ -151,14 +162,16 @@ public class Coac {
 	public void ordenar_por_autor_musica_letra() {
 		Arrays.sort(coac, new compMusica());
 	}
+
 	/**
 	 * @return ordena por musica
 	 */
-	
+
 	public void ordenar_por_puntos() {
-		//Arrays.sort(coac, compPuntos());
-		
+		// Arrays.sort(coac, compPuntos());
+
 	}
+
 	/**
 	 * @return ordena por puntos
 	 */
@@ -172,5 +185,5 @@ public class Coac {
 	 * @param i
 	 * @return asigna puntos
 	 */
-	
+
 }
