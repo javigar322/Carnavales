@@ -2,11 +2,12 @@ package model;
 
 /**
  * 
- * @author javi clase de agrupacion
+ * @author javi 
+ * <h2>clase de agrupacion</h2>
  */
 public abstract class Agrupacion {
 	/**
-	 * string del nombre, autor, autor de la musica, autor de la letra y el tipo
+	 * <h2>string del nombre, autor, autor de la musica, autor de la letra y el tipo</h2>
 	 */
 	private String nombre;
 	private String autor;
@@ -20,7 +21,7 @@ public abstract class Agrupacion {
 
 	/**
 	 * 
-	 * @return retorno el nombre del getter nombre
+	 * @return retorna el nombre del getter nombre
 	 */
 	public String getNombre() {
 		return nombre;
@@ -28,7 +29,7 @@ public abstract class Agrupacion {
 
 	/**
 	 * 
-	 * @param nombre
+	 * @param nombre 
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;

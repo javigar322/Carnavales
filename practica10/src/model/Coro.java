@@ -2,7 +2,8 @@ package model;
 
 /**
  * 
- * @author javi clase del coro
+ * @author javi 
+ * <h2>clase del coro</h2>
  */
 public class Coro extends AgrupacionOficial {
 
@@ -10,7 +11,7 @@ public class Coro extends AgrupacionOficial {
 	private Integer númeroGuitarras;
 
 	/**
-	 * constructor por defecto
+	 * <h2>constructor por defecto</h2>
 	 */
 	public Coro() {
 		setNombre(getNombre());

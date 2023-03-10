@@ -2,14 +2,15 @@ package model;
 
 /**
  * 
- * @author javi clase cuarteto
+ * @author javi 
+ * <h2>clase cuarteto</h2>
  */
 public class Cuarteto extends AgrupacionOficial implements Callejera {
 
 	private Integer numeroMiembros;
 
 	/**
-	 * clase constructor por defecto
+	 * <h2>clase constructor por defecto</h2>
 	 */
 	public Cuarteto() {
 		setNombre(getNombre());

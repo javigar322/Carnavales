@@ -2,7 +2,8 @@ package model;
 
 /**
  * 
- * @author javi clase integrante
+ * @author javi 
+ * <h2>clase integrante</h2>
  */
 public class Integrante {
 
@@ -12,7 +13,7 @@ public class Integrante {
 	private String edad;
 
 	/**
-	 * constructor por defecto
+	 * <h2>constructor por defecto</h2>
 	 */
 	public Integrante() {
 		numeroParticipante++;

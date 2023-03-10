@@ -2,15 +2,15 @@ package model;
 /**
  * 
  * @author javi
- * clase de agrupaciones oficiales
+ * <h2>clase de agrupaciones oficiales</h2>
  */
 public abstract class AgrupacionOficial extends Agrupacion {
 
 	private Integer puntosObtenidos;
 	private Integrante integrante[];
 	/**
-	 * metodo constructor por defecto
-	 * crea un array con 10 integrantes
+	 * <h2>metodo constructor por defecto
+	 * crea un array con 10 integrantes</h2>
 	 */
 	public AgrupacionOficial () {
 		integrante = new Integrante[10];
@@ -41,8 +41,7 @@ public abstract class AgrupacionOficial extends Agrupacion {
 	}
 /**
  * 
- * @param puntosObtenidos
- * setter de puntos obtenidos
+ * @param puntosObtenidos setter de puntos obtenidos
  */
 	public void setPuntosObtenidos(Integer puntosObtenidos) {
 		this.puntosObtenidos = puntosObtenidos;

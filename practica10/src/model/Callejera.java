@@ -2,11 +2,11 @@ package model;
 /**
  * 
  * @author javi
- * interfaz callejera
+ * <h2>interfaz callejera</h2>
  */
 public interface Callejera {
 /**
- * metodo amo escucha
+ * <h2>metodo amo escucha</h2>
  * @return un string que dice amo escucha
  */
 	public default String amoAescucha() {

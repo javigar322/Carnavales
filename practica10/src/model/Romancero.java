@@ -2,7 +2,8 @@ package model;
 
 /**
  * 
- * @author javi clase romancero
+ * @author javi 
+ * <h2>clase romancero</h2>
  */
 public class Romancero extends Agrupacion implements Callejera {
 
@@ -14,7 +15,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	private String tematicaCartelon;
 
 	/**
-	 * constructor por defecto
+	 * <h2>constructor por defecto</h2>
 	 */
 	public Romancero() {
 

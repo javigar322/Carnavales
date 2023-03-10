@@ -1,7 +1,7 @@
 package model;
 
 /**
- * clase chirigotas
+ * <h2>clase chirigotas</h2>
  */
 public class Chirigota extends AgrupacionOficial implements Callejera {
 
@@ -9,7 +9,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	private Integer puntosObtenidos;
 
 	/**
-	 * clase constructor con un setter de nombre y tipo por defecto
+	 * <h2>clase constructor con un setter de nombre y tipo por defecto</h2>
 	 */
 	public Chirigota() {
 		setNombre(getNombre());

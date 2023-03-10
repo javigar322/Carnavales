@@ -2,7 +2,8 @@ package model;
 
 /**
  * 
- * @author javi clase comparsa
+ * @author javi 
+ * <h2>clase comparsa</h2>
  */
 public class Comparsa extends AgrupacionOficial {
 
@@ -15,14 +16,14 @@ public class Comparsa extends AgrupacionOficial {
 	private Integer puntosObtenidos;
 
 	/**
-	 * constructor por defecto
+	 * <h2>constructor por defecto</h2>
 	 */
 	public Comparsa() {
 
 	}
 
 	/**
-	 * getter del nombre
+	 * @return getter del nombre
 	 */
 	public String getNombre() {
 		return nombre;
@@ -79,14 +80,14 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * getter del tipo
+	 * @return tipo getter del tipo
 	 */
 	public String getTipo() {
 		return tipo;
 	}
 
 	/**
-	 * setter del tipo
+	 * @param tipo setter del tipo
 	 */
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
@@ -101,9 +102,8 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * setter numero atrezo
 	 * 
-	 * @param numeroAtrezzo
+	 * @param numeroAtrezzo 
 	 */
 	public void setNumeroAtrezzo(Integer numeroAtrezzo) {
 		this.numeroAtrezzo = numeroAtrezzo;
